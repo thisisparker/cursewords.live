@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="home">
+    <div class="home-wrapper">
+        <div class="home-content">
+            {{ content }}
+        </div>
+    </div>
+</div>

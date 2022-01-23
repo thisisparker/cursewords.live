@@ -1,0 +1,6 @@
+<ul class="links">
+    <li><a href="https://twitter.com/{{ site.twitter_username}}">Twitter</a></li>
+		<li><a href="https://rosswordpuzzles.com/">Rossword Puzzles</a></li>
+		<li><a href="https://github.com/thisisparker/cursewords">Github</a></li>
+</ul>
+

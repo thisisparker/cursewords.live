@@ -1,6 +1,5 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+
+[Cursewords Live](https://www.twitch.tv/cursewordslive) is a regular Twitch stream where Parker and Ross solve crossword puzzles in a beautiful janky interface Parker made and construct crossword puzzles in a regular janky interface. 

@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{site.theme}}";
+
+
+header #head-info {
+	float: left;
+	width: 80%;
+}
+
+header {
+	overflow: overlay;
+}
+
+.links {
+	float: right;
+}
+
+.links li {
+  list-style: none;
+}
+

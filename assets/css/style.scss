@@ -30,3 +30,32 @@ header {
   list-style: none;
 }
 
+ul.homepage-items {
+	padding-left: 0;
+}
+
+.homepage-items li {
+	overflow: auto;
+	font-size: 130%;
+	list-style: none;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.homepage-items li p {
+	vertical-align: middle;
+}
+
+.homepage-items img {
+	max-width: 45%;
+}
+
+.homepage-items .img-left {
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+.homepage-items .img-right {
+	float: right;
+	padding: 0 0 0 20px;
+}

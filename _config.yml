@@ -22,8 +22,9 @@ title: Cursewords Live!
 email: cursewordslive@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Be there and fill squares.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: thisisparker.github.io
+url: https://thisisparker.github.io
+baseurl: /cursewords.live/ # the subpath of your site, e.g. /blog
 twitter_username: cursewordslive
 
 # Build settings

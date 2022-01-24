@@ -42,11 +42,7 @@ header {
   list-style: none;
 }
 
-.home-content ul {
-	padding-left: 0;
-}
-
-.home-content li {
+.home-content section {
 	overflow: auto;
 	font-size: 130%;
 	list-style: none;
@@ -56,24 +52,24 @@ header {
 	gap: 20px;
 }
 
-.home-content li.img-left {
+.home-content section.img-left {
 	flex-direction: row;
 }
 
-.home-content li.img-right {
+.home-content section.img-right {
 	flex-direction: row-reverse;
 }
 
-.home-content ul img {
+.home-content section img {
 	max-width: 45%;
 }
 
 
 @media (max-width: 650px) {
-	.home-content li {
+	.home-content section {
 		display: block;
 	}
-	.home-content li img {
+	.home-content section img {
 		max-width: 100%;
 	}
 }

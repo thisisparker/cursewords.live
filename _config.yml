@@ -22,9 +22,9 @@ title: Cursewords Live!
 email: cursewordslive@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Be there and fill squares.
-domain: thisisparker.github.io
-url: https://thisisparker.github.io
-baseurl: /cursewords.live/ # the subpath of your site, e.g. /blog
+domain: cursewords.live
+url: https://cursewords.live
+baseurl: '' # the subpath of your site, e.g. /blog
 twitter_username: cursewordslive
 
 twitter:

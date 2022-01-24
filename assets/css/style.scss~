@@ -3,17 +3,38 @@
 
 @import "{{site.theme}}";
 
+header {
+	background-image: url('{{ 'assets/images/cursewords-tile.jpg' | relative_url }}');
+	background-repeat: repeat;
+	border-bottom: 1px dashed #2ef528;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #2ef528;
+}
+
+header h1::before {
+	content: '';
+}
+
+header h1 {
+	color: #2ef528;
+	margin: 0 0 0 0;
+}
 
 header #head-info {
+	background: black;
 	float: left;
-	width: 80%;
+	max-width: 60%;
+	overflow: auto;
 }
 
 header {
-	overflow: overlay;
+	overflow: auto;
 }
 
 .links {
+	max-width: 25%;
 	float: right;
 }
 
@@ -21,3 +42,41 @@ header {
   list-style: none;
 }
 
+ul.homepage-items {
+	padding-left: 0;
+}
+
+.homepage-items li {
+	overflow: auto;
+	font-size: 130%;
+	list-style: none;
+	margin-bottom: 20px;
+	display: table;
+}
+
+.homepage-items li p {
+	vertical-align: middle;
+}
+
+.homepage-items img {
+	display: table-cell;
+	max-width: 45%;
+}
+
+.homepage-items .img-left {
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+.homepage-items .img-right {
+	float: right;
+	padding: 0 0 0 20px;
+}
+
+@media (max-width: 650px) {
+	.homepage-items .img-right, .homepage-items .img-left {
+		max-width: 100%;
+		clear:both;
+		padding: 0 0 20px 0;
+	}
+}

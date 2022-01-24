@@ -4,38 +4,38 @@
 @import "{{site.theme}}";
 
 header {
-	background-image: url('{{ 'assets/images/cursewords-tile.jpg' | relative_url }}');
-	background-repeat: repeat;
-	border-bottom: 1px dashed #2ef528;
+  background-image: url('{{ 'assets/images/cursewords-tile.jpg' | relative_url }}');
+  background-repeat: repeat;
+  border-bottom: 1px dashed #2ef528;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #2ef528;
+  color: #2ef528;
 }
 
 header h1::before {
-	content: '';
+  content: '';
 }
 
 header h1 {
-	color: #2ef528;
-	margin: 0 0 0 0;
+  color: #2ef528;
+  margin: 0 0 0 0;
 }
 
 header #head-info {
-	background: black;
-	float: left;
-	max-width: 60%;
-	overflow: auto;
+  background: black;
+  float: left;
+  max-width: 60%;
+  overflow: auto;
 }
 
 header {
-	overflow: auto;
+  overflow: auto;
 }
 
 .links {
-	max-width: 25%;
-	float: right;
+  max-width: 25%;
+  float: right;
 }
 
 .links li {
@@ -43,33 +43,33 @@ header {
 }
 
 .home-content section {
-	overflow: auto;
-	font-size: 130%;
-	list-style: none;
-	margin-bottom: 20px;
-	display: flex;
-	align-items: center;
-	gap: 20px;
+  overflow: auto;
+  font-size: 130%;
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .home-content section.img-left {
-	flex-direction: row;
+  flex-direction: row;
 }
 
 .home-content section.img-right {
-	flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .home-content section img {
-	max-width: 45%;
+  max-width: 45%;
 }
 
 
 @media (max-width: 650px) {
-	.home-content section {
-		display: block;
-	}
-	.home-content section img {
-		max-width: 100%;
-	}
+  .home-content section {
+    display: block;
+  }
+  .home-content section img {
+    max-width: 100%;
+  }
 }

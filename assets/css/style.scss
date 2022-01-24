@@ -51,24 +51,29 @@ ul.homepage-items {
 	font-size: 130%;
 	list-style: none;
 	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.homepage-items li.img-left {
+	flex-direction: row;
+}
+
+.homepage-items li.img-right {
+	flex-direction: row-reverse;
 }
 
 .homepage-items img {
 	max-width: 45%;
 }
 
-.homepage-items .img-left {
-	float: left;
-	padding: 0 20px 0 0;
-}
-
-.homepage-items .img-right {
-	float: right;
-	padding: 0 0 0 20px;
-}
 
 @media (max-width: 650px) {
-	.homepage-items .img-right, .homepage-items .img-left {
+	.homepage-items li {
+		display: block;
+	}
+	.homepage-items li img {
 		max-width: 100%;
 		clear:both;
 		padding: 0 0 20px 0;

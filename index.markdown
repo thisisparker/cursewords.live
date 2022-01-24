@@ -10,6 +10,6 @@ layout: home
 
 ## About Parker and Ross
 
-[Parker](https://twitter.com/xor) is the developer of the [Cursewords software](https://github.com/thisisparker/cursewords) we use on-screen.
+[Parker](https://twitter.com/xor) is the developer of the [Cursewords software](https://github.com/thisisparker/cursewords) we use on the stream. Read more in this [interview with Beyond Wordplay's Allegra Kuney](https://beyondwordplay.com/curses-a-conversation-with-parker-higgins-5e97ea764f52).
 
 [Ross](https://twitter.com/TrudeauRoss) is a crossword constructor whose puzzles have appeared in every major publication. He also publishes a free weekly crossword at [Rossword Puzzles](https://rosswordpuzzles.com).

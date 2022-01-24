@@ -42,11 +42,11 @@ header {
   list-style: none;
 }
 
-ul.homepage-items {
+.home-content ul {
 	padding-left: 0;
 }
 
-.homepage-items li {
+.home-content li {
 	overflow: auto;
 	font-size: 130%;
 	list-style: none;
@@ -56,26 +56,24 @@ ul.homepage-items {
 	gap: 20px;
 }
 
-.homepage-items li.img-left {
+.home-content li.img-left {
 	flex-direction: row;
 }
 
-.homepage-items li.img-right {
+.home-content li.img-right {
 	flex-direction: row-reverse;
 }
 
-.homepage-items img {
+.home-content ul img {
 	max-width: 45%;
 }
 
 
 @media (max-width: 650px) {
-	.homepage-items li {
+	.home-content li {
 		display: block;
 	}
-	.homepage-items li img {
+	.home-content li img {
 		max-width: 100%;
-		clear:both;
-		padding: 0 0 20px 0;
 	}
 }

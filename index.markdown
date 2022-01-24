@@ -1,5 +1,6 @@
 ---
 layout: home
+image: /assets/images/cursewords-live-tile-logo.png
 ---
 
 <section><p><a href="https://twitch.tv/cursewordslive">Cursewords Live</a> is a regular Twitch stream where Parker and Ross solve crossword puzzles in a beautiful janky interface Parker made and construct crossword puzzles in a regular janky interface.</p></section>

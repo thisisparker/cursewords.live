@@ -3,6 +3,10 @@
 
 @import "{{site.theme}}";
 
+body {
+  padding-bottom: 60px;
+}
+
 header {
   background-image: url('{{ 'assets/images/cursewords-tile.jpg' | relative_url }}');
   background-repeat: repeat;
@@ -28,7 +32,6 @@ header h2 {
 
 header #head-info {
   background: black;
-  float: left;
   max-width: 60%;
   overflow: auto;
 }

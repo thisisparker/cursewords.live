@@ -33,25 +33,20 @@
       </section>
     </div>
 
-  <script type="text/javascript">
-  var navHeight = window.getComputedStyle(document.getElementsByClassName('nav')[0]).height;
-
-  var heightRule = ':target { padding-top: ' + navHeight + '; margin-top: -' + navHeight + ';}'
-
-  document.styleSheets[0].insertRule(heightRule, 3)
-  
-  window.onscroll = function() {toggleSticky()};
-
-  var navbar = document.getElementsByClassName('nav')[0];
-  var stickyPosition = navbar.offsetTop - navbar.offsetHeight;
-  
-  function toggleSticky() {
-    if (window.pageYOffset >= stickyPosition) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
+<script type="text/javascript">
+var navHeight = window.getComputedStyle(document.getElementsByClassName('nav')[0]).height;
+var heightRule = ':target { padding-top: ' + navHeight + '; margin-top: -' + navHeight + ';}'
+document.styleSheets[0].insertRule(heightRule, 3)
+window.onscroll = function() {toggleSticky()};
+var navbar = document.getElementsByClassName('nav')[0];
+var stickyPosition = navbar.offsetTop - navbar.offsetHeight;
+function toggleSticky() {
+  if (window.pageYOffset >= stickyPosition) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
   }
-  </script>
+}
+</script>
   </body>
 </html>

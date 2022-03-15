@@ -2,7 +2,7 @@
 layout: hpdefault
 title: The Honeypot Puzzle Fragments
 description: A print zine of 12 new crossword puzzles from Parker Higgins and Ross Trudeau.
-image: /assets/images/honeypot-preview.png
+image: /assets/images/honeypot-preview.jpg
 ---
 
 Thank you for your interest in “Toward A New Understanding of The Honeypot Puzzle Fragments,” a new print zine of 12 crossword puzzles by Parker Higgins and Ross Trudeau on the cutting edge of research into the beloved and enigmatic archaeological artifacts.

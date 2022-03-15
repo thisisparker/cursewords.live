@@ -175,13 +175,11 @@ header #head-info {
   max-width: 100%;
   float: none;
 }
-
 ul.links {
-  margin-left: -20px;
+  margin-left: -30px;
   row-gap: 0px;
   column-gap: 10px;
 }
-
 .links li a {
   display: block;
   padding: 10px;
@@ -189,8 +187,12 @@ ul.links {
   text-decoration: none;
   text-shadow: none;
 }
-
 .links li:first-child a {
   margin-left: 0;
+}
+header {
+h1 {
+  font-size: 50px;
+}
 }
 }

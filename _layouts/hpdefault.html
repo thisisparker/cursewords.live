@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/hpstyle.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include hp-head.html %}
+
+{% seo %}
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <div id="head-info">
+					<a id="a-title" href="{{ '/honeypot' | relative_url }}">
+						<h1>{{ "The Honeypot Puzzle Fragments" | default: site.github.repository_name }}</h1>
+					</a>
+					<h2>{{ "Toward a new understanding" | default: site.github.project_tagline }}</h2>
+		</div>
+	</div>
+    <div class="nav">
+    {% include hpnav.html %}
+    </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+
+  <script type="text/javascript">
+  var navHeight = window.getComputedStyle(document.getElementsByClassName('nav')[0]).height;
+
+  var heightRule = ':target { padding-top: ' + navHeight + '; margin-top: -' + navHeight + ';}'
+
+  document.styleSheets[0].insertRule(heightRule, 3)
+  
+  window.onscroll = function() {toggleSticky()};
+
+  var navbar = document.getElementsByClassName('nav')[0];
+  var stickyPosition = navbar.offsetTop - navbar.offsetHeight;
+  
+  function toggleSticky() {
+    if (window.pageYOffset >= stickyPosition) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+  </body>
+</html>

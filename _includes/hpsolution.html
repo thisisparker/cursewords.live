@@ -1,0 +1,1 @@
+{% capture funccall %}swapImage('{{include.idx}}'){% endcapture %}<img id="{{ 'puz' | append: include.idx }}" src="{{ 'assets/images/hp/puzzle' | append: include.idx | append: '.png' | relative_url}}" onclick="{{ funccall }}">

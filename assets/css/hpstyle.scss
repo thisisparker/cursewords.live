@@ -189,4 +189,8 @@ ul.links {
   text-decoration: none;
   text-shadow: none;
 }
+
+.links li:first-child a {
+  margin-left: 0;
+}
 }

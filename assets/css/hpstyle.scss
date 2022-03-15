@@ -180,6 +180,10 @@ ul.links {
   row-gap: 0px;
   column-gap: 10px;
 }
+.links li {
+  display: inline;
+  font-size: 55%;
+}
 .links li a {
   display: block;
   padding: 10px;

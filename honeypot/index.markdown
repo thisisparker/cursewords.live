@@ -8,7 +8,7 @@ image: /assets/images/honeypot-preview.jpg
 Thank you for your interest in “Toward A New Understanding of The Honeypot Puzzle Fragments,” a new print zine of 12 crossword puzzles by Parker Higgins and Ross Trudeau on the cutting edge of research into the beloved and enigmatic archaeological artifacts.
 <figure class="img-block-right"><a href="https://www.kickstarter.com/projects/887675031/the-honeypot-puzzle-fragments"><img alt="Cover of 'The Honeypot Puzzle Fragments: Toward a New Understanding'" src="{{ '/assets/images/cover-for-screen.png' | relative_url }}"><figcaption>Back us on Kickstarter!</figcaption></a></figure>
 
-The zine is <a href="">available for online pre-order through Kickstarter at a special discounted rate</a>, and will be released on April 1, 2022.
+The zine is <a href="https://www.kickstarter.com/projects/887675031/the-honeypot-puzzle-fragments">available for online pre-order through Kickstarter at a special discounted rate</a>, and will be released on April 1, 2022.
 
 On this page you’ll find historical data on the Honeypot Puzzle Fragments, biographical information on their discoverer, and solutions to the puzzle restoration project.
 

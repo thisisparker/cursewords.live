@@ -40,7 +40,7 @@ Howard attended Yale University between 1860-1864, earning a degree in Classical
 <details>
 <summary>Continue reading about Dr. Box.</summary>
 
-<p>Inspired by the discovery of ancient Knossos by amateur archaeologist Minos Kalokairinos in 1877, Howard moved to London and launched a series of dubious expeditions in Italy, Greece, Asia Minor, and North Africa, making no major discoveries and losing his right food to an infection while in Fes.</p>
+<p>Inspired by the discovery of ancient Knossos by amateur archaeologist Minos Kalokairinos in 1877, Howard moved to London and launched a series of dubious expeditions in Italy, Greece, Asia Minor, and North Africa, making no major discoveries and losing his right foot to an infection while in Fes.</p>
 
 <p>In 1891, Dr. Box mistranslated Vulgar Latin graffiti during a visit to the archaeological site of Pompeii and began a large-scale dig—funded by his parents—at a previously unexamined site in a field below Mount Vesuvius. His team unearthed Grecian urns buried just a few decades prior by agents of Lord William Hamilton, the British ambassador to Naples. Later research by Dr. Box’s assistants revealed that they were likely hidden there in an attempt to hide his collection of antiquities in the midst of a hurried evacuation of the Neapolitan court in the face of Napoleon’s advancing armies.</p>
 

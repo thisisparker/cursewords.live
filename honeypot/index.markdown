@@ -52,8 +52,6 @@ Howard attended Yale University between 1860-1864, earning a degree in Classical
 
 <p>Dr Box died in 1911 at the family estate in Rhode Island, survived by neither spouse nor child.</p></details>
 
-<!--
-
 ## Puzzle solutions
 
 Click on a puzzle to reveal its solution.
@@ -71,10 +69,7 @@ function swapImage(idx) {
       document.getElementById(ImgId).src = ImgSrc.replace('solution', 'puzzle'); 
     }
 }
-
 </script>
 
 <div id="solutions">
 {% for num in (1..12) %}{% capture idx %}{{ num | prepend:'0' | slice: -2, 2 }}{% endcapture %}{% include hpsolution.html idx=idx %}{% endfor %}</div>
-
--->

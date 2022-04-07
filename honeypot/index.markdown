@@ -6,9 +6,40 @@ image: /assets/images/honeypot-preview.jpg
 ---
 
 Thank you for your interest in “Toward A New Understanding of The Honeypot Puzzle Fragments,” a new print zine of 12 crossword puzzles by Parker Higgins and Ross Trudeau on the cutting edge of research into the beloved and enigmatic archaeological artifacts.
-<figure class="img-block-right"><a href="https://www.kickstarter.com/projects/887675031/the-honeypot-puzzle-fragments"><img alt="Cover of 'The Honeypot Puzzle Fragments: Toward a New Understanding'" src="{{ '/assets/images/cover-for-screen.png' | relative_url }}"><figcaption>Back us on Kickstarter!</figcaption></a></figure>
 
-The zine is <a href="https://www.kickstarter.com/projects/887675031/the-honeypot-puzzle-fragments">available for online pre-order through Kickstarter at a special discounted rate</a>, and will be released on April 1, 2022.
+<div class="img-block-right" style="
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 259px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
+  ">
+  <img src="https://items-images-production.s3.us-west-2.amazonaws.com/files/630b76d459f8ef43ef80c3c2cacec6830f02f139/original.png" alt="Honeypot Puzzle Fragments zine" onerror="this.style.display='none'" style="width: 100%;">
+  <div style="padding: 20px;">
+  <a target="_blank" href="https://square.link/u/3EoHZtta?src=embed" style="
+    display: inline-block;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    color: #ffffff;
+    min-width: 212px;
+    background-color: #006aff;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+    border-radius: 0px;
+  ">Buy now ($12)</a>
+  </div>
+</div>
+
+<!--<figure class="img-block-right"><a href="https://www.kickstarter.com/projects/887675031/the-honeypot-puzzle-fragments"><img alt="Cover of 'The Honeypot Puzzle Fragments: Toward a New Understanding'" src="{{ '/assets/images/cover-for-screen.png' | relative_url }}"><figcaption>Back us on Kickstarter!</figcaption></a></figure>-->
+
+The zine was made possibly by <a href="https://www.kickstarter.com/projects/887675031/the-honeypot-puzzle-fragments/">482 backers on Kickstarter</a> and is <a href="https://square.link/u/3EoHZtta">now available for purchase online</a>.
 
 On this page you’ll find historical data on the Honeypot Puzzle Fragments, biographical information on their discoverer, and solutions to the puzzle restoration project.
 

@@ -39,7 +39,7 @@ Thank you for your interest in “Toward A New Understanding of The Honeypot Puz
 
 <!--<figure class="img-block-right"><a href="https://www.kickstarter.com/projects/887675031/the-honeypot-puzzle-fragments"><img alt="Cover of 'The Honeypot Puzzle Fragments: Toward a New Understanding'" src="{{ '/assets/images/cover-for-screen.png' | relative_url }}"><figcaption>Back us on Kickstarter!</figcaption></a></figure>-->
 
-The zine was made possibly by <a href="https://www.kickstarter.com/projects/887675031/the-honeypot-puzzle-fragments/">482 backers on Kickstarter</a> and is <a href="https://square.link/u/3EoHZtta">now available for purchase online</a>.
+The zine was made possible by <a href="https://www.kickstarter.com/projects/887675031/the-honeypot-puzzle-fragments/">482 backers on Kickstarter</a> and is <a href="https://square.link/u/3EoHZtta">now available for purchase online</a>.
 
 On this page you’ll find historical data on the Honeypot Puzzle Fragments, biographical information on their discoverer, and solutions to the puzzle restoration project.
 

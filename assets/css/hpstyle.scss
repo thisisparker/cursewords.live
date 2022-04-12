@@ -74,7 +74,8 @@ ul.links {
   min-height: 20px;
   width: 90%;
   max-width: 1000px;
-  gap: 20px;
+  column-gap: 20px;
+  row-gap: 0;
   margin: 0 auto;
 }
 
@@ -85,7 +86,7 @@ ul.links {
 
 .links li a {
   display: block;
-  padding: 20px;
+  padding: 10px;
   color: #fff;
   text-decoration: none;
   text-shadow: none;
